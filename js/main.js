@@ -28,6 +28,7 @@ $(document).ready(function(){
       {
         $('.navbar ul li a').removeClass('active');
         $('.navbar').find('[href="#' + id + '"]').addClass('active');
+      
       }
 
 

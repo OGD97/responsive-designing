@@ -429,6 +429,10 @@ header .fa-times
   align-items: center;
   padding: 2rem;
   margin: 2rem;
+  /* width: auto; WITHOUT THE WIDTH, IT IS ALREADY AUTO */
+  /* border-radius: 0rem; */
+  /* border: 1rem solid orange;
+  border-style: ridge; */
 }
 
 .teacher .card-container .card img
@@ -436,7 +440,7 @@ header .fa-times
   height: 30rem;
   width: 20rem;
   object-fit:cover;
-  border-radius: 2rem;
+  border-radius: 1rem;
   filter: drop-shadow(2px 4px 6px rgb(0,0,0,.3));
   
 }
@@ -467,10 +471,11 @@ header .fa-times
 {
   color: white;
   font-size: 1.5rem;
-  padding: .5rem 0;
+  padding: .5rem .5rem;
 }
 
 
+/* Footer START */
 footer
 {
   background-color: var(--orange);
