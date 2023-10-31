@@ -442,9 +442,15 @@ header .fa-times
   object-fit:cover;
   border-radius: 1rem;
   filter: drop-shadow(2px 4px 6px rgb(0,0,0,.3));
-  
+  transition: .2s;
 }
 
+.teacher .card-container .card:hover img
+{
+  height: 30rem;
+  width: 23rem;
+  transition: .3s;
+}
 .teacher .card-container .card h3
 {
   text-align: center;
