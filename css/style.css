@@ -245,6 +245,7 @@ header .fa-times
   z-index: -1;
 }
 
+/* Home END */ 
 
 /* ABOUT START */
 
@@ -310,7 +311,7 @@ header .fa-times
 } */
 
 
-
+/* About START */
 
 .about .heading
 {
@@ -383,8 +384,9 @@ header .fa-times
   opacity: .8rem;
 }
 
-/* Teacher START */
+/* About END */
 
+/* Teacher START */
 
 .teacher
 {
@@ -480,6 +482,31 @@ header .fa-times
   padding: .5rem .5rem;
 }
 
+/* Teacher END */
+
+/* Course START */
+
+.course .heading
+{
+  font-size: 4rem;
+  color: #F99417;
+  text-align: center;
+  padding-top: 5rem;
+  
+  /* padding: 0 1rem; */
+  
+}
+
+.course .title
+{
+  /* padding: 0 1rem; */
+
+  font-size: 2rem;
+  color: #ffff;
+  text-align: center;
+}
+
+/* Course END */
 
 /* Footer START */
 footer
