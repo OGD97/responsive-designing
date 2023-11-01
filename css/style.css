@@ -508,21 +508,56 @@ header .fa-times
 
 .course .box-container
 {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-top: 4rem;
-  flex: wrap;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  
 }
 
 .course .box-container .box
 {
+  
   height: 18rem;
   width: 25rem;
   margin: 3.5rem 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 .9rem .5rem rgb(0, 0, 0, .3);
+  background: var(--orange);
 }
 
+.course .box-container .box i
+{
+  height: 5rem;
+  width: 5rem;
+  line-height: 8rem;
+  text-align: center;
+  color: white;
+  background: var(black);
+  /* border-radius: 50%;
+  background-color: white;
+  border-left: 1rem solid black;
+  border-right: 1rem solid black; */
+
+  font-size: 3.5rem;
+}
+
+.course .box-container .box h3
+{
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.course .box-container .box p
+{
+  font-size: 1.25rem;
+  color: black;
+
+}
 /* Course END */
 
 /* Footer START */
