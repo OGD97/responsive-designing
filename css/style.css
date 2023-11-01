@@ -506,6 +506,23 @@ header .fa-times
   text-align: center;
 }
 
+.course .box-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 4rem;
+  flex: wrap;
+}
+
+.course .box-container .box
+{
+  height: 18rem;
+  width: 25rem;
+  margin: 3.5rem 2rem;
+}
+
 /* Course END */
 
 /* Footer START */
