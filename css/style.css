@@ -884,9 +884,6 @@ footer a
   padding: 0;
 }
 
-
-
-
 .home::before
 {
   content: ''; /*?*/
