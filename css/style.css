@@ -669,6 +669,87 @@ color: black;
 
 
 
+.contact
+{
+  background-color: #F99417;
+}
+
+.contact .heading
+{
+  font-size: 4rem;
+  color: #333;
+  text-align: center;
+  padding-top: 5rem;
+  /* padding: 0 1rem; */
+  
+}
+
+.contact .title
+{
+  font-size: 2rem;
+  color: #ffff;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.contact .row
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.contact .row .image img
+{
+  width: 50vw;
+  height: 70vh;
+}
+
+.contact .row .form-container
+{
+  width: 50%;
+  padding-right: 6rem;
+}
+
+.contact .row .form-container input, textarea
+{
+  height: 4rem;
+  width: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  font-size: 1.7rem;
+  color: black;
+  /* transition: .2s linear; */
+}
+
+.contact .row .form-container textarea
+{
+  height: 20rem;
+  padding: 1rem;
+  resize: none;
+}
+
+.contact .row .form-container input:focus, textarea:focus
+{
+  border: .1rem solid black;
+}
+
+.contact .row .form-container input[type="submit"]
+{
+  width: 18rem;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+
+
+
 
 
 
@@ -769,7 +850,7 @@ footer a
     display: block;
   } */
 
-  .about .row .image img
+.about .row .image img
 {
   height: 60vh;
   width: 90vw;
@@ -783,6 +864,39 @@ footer a
 .about .row .content
 {
   padding: 0 7rem;
+}
+
+
+.contact .row
+{
+  flex-flow: column;
+}
+
+.contact .row .image img
+{
+  height: 50vh;
+  width: 90vw;
+}
+
+.contact .row .form-container
+{
+  width: 80%;
+  padding: 0;
+}
+
+
+
+
+.home::before
+{
+  content: ''; /*?*/
+  position: absolute;
+  bottom: -10%; left: 50%;
+  transform: translateX(-50%);
+  border-top: 70vh solid #F99417;
+  width: 120%;
+  border-radius: 50%;
+  z-index: -1;
 }
 
 }
