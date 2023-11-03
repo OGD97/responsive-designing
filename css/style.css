@@ -723,6 +723,7 @@ color: black;
   margin: 1rem 0;
   font-size: 1.7rem;
   color: black;
+  text-transform: none;
   /* transition: .2s linear; */
 }
 
