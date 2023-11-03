@@ -735,7 +735,7 @@ color: black;
 
 .contact .row .form-container input:focus, textarea:focus
 {
-  border: .1rem solid black;
+  border: .2rem solid black;
 }
 
 .contact .row .form-container input[type="submit"]
@@ -747,6 +747,12 @@ color: black;
   font-size: 2rem;
 }
 
+.contact .row .form-container input[type="submit"]:hover
+{
+  background-color: white;
+  color: var(--orange);
+  
+}
 
 
 
