@@ -121,7 +121,7 @@ header .fa-times
 .home
 {
   min-height: 100vh;
-  background: linear-gradient(#333,white);
+  background: linear-gradient(white);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
